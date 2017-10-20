@@ -8,6 +8,7 @@
 # ---------------------------------------------------------------------------------------
 # Generic settings for the project overall
 # ---------------------------------------------------------------------------------------
+# hhe: to customize
 source /home/roman/mom_performance/hosts.sh
 
 export LD_LIBRARY_PATH=$WMQ_INSTALL_DIR/java/lib64
