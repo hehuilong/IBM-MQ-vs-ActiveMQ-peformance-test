@@ -11,17 +11,18 @@ set -o errexit
 #########################################
 # DNS names of hosts that run the server side of the software - i.e. 'hostname.domain.com'
 AMQ_HOST=amqhost
-WMQ_HOST=mqhost
+WMQ_HOST=172.30.14.145
 
 #########################################
 # Installation paths - same across all machines
 WMQ_INSTALL_DIR=/opt/mqm
-export AMQ_INSTALL_DIR=/home/roman/apache-activemq-5.11.0
+#export AMQ_INSTALL_DIR=/home/roman/apache-activemq-5.11.0
 
 #########################################
 # Users - same across all machines
-REMOTE_USER=roman
+REMOTE_USER=centos
 
 #########################################
 # Project path - same on all machines
-PROJECT_DIR=/home/$REMOTE_USER/mom_performance
+# PROJECT_DIR=/home/$REMOTE_USER/mom_performance
+PROJECT_DIR=${PROJECT_HOME}

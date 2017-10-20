@@ -6,7 +6,7 @@
 # AUTHOR:   	Roman Kharkovski (http://whywebsphere.com/resources-links)
 #
 
-source /home/roman/mom_performance/utils.sh
+source ${PROJECT_HOME}/utils.sh
 
 REFRESH_RATE=5
 OUTPUT_FILE=activity_recorder.log

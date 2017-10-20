@@ -8,8 +8,8 @@
 set -o nounset
 set -o errexit
 
-source /home/roman/mom_performance/client/setenv_client.sh
-source /home/roman/mom_performance/utils.sh
+source ${PROJECT_HOME}/client/setenv_client.sh
+source ${PROJECT_HOME}/utils.sh
 
 ##############################################################################
 # Create proper directories on remote hosts

@@ -9,7 +9,7 @@
 # Generic settings for the project overall
 # ---------------------------------------------------------------------------------------
 # hhe: to customize
-source /home/roman/mom_performance/hosts.sh
+source ${PROJECT_HOME}/hosts.sh
 
 export LD_LIBRARY_PATH=$WMQ_INSTALL_DIR/java/lib64
 # Please note that this needs to be on the clienthost as well as on amqhost and mqhost - this is used by local and ssh started clients (it is ok if AMQ is started by another JVM)

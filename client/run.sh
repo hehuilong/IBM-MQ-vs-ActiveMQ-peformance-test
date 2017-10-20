@@ -33,8 +33,8 @@ mkdir $LOG_DIR | true
 rm -f $LOG_DIR/* | true
 rm -f $RESULTS_FILE | true
 
-echo_my "Copying project files to remote servers so that we are on the same version of scripts across all machines..."
-../copy_project.sh
+#echo_my "Copying project files to remote servers so that we are on the same version of scripts across all machines..."
+#../copy_project.sh
 
 echo_my "Before we do anything, lets start recording CPU usage on the client..." $ECHO_DEBUG
 ../activity_recorder.sh

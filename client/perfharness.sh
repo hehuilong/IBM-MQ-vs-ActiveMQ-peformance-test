@@ -37,13 +37,8 @@ prepareTargetServerHost()
 	echo_my "prepareTargetServerHost()..." $ECHO_DEBUG
 	local SLEEP_TIME=20
 
-	if [ $1 = $AMQ ]; then
-		REMOTE_HOST=$AMQ_HOST
-		RUNTIME_DIR=$BASE_DIR/../amq
-	else
-		REMOTE_HOST=$WMQ_HOST
-		RUNTIME_DIR=$BASE_DIR/../mq
-	fi
+	REMOTE_HOST=$WMQ_HOST
+	RUNTIME_DIR=$BASE_DIR/../mq
 	
 	echo_my "Start recording CPU and disk usage..."
 	COMMAND="cd $RUNTIME_DIR; ../activity_recorder.sh"

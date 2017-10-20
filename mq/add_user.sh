@@ -17,7 +17,7 @@ set -o nounset
 # This automatically exits the script if any error occurs while running it
 set -o errexit
 
-source /home/roman/mom_performance/hosts.sh
+source ${PROJECT_HOME}/hosts.sh
 source $PROJECT_DIR/utils.sh
 	
 PERFORMANCE_USER=mqperf
